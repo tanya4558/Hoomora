@@ -52,7 +52,7 @@ export default function Footer() {
         <div className="container footer__bar-inner">
           <p>© {year} {BUSINESS.firm}. All rights reserved.</p>
           <p className="footer__tm">
-            {trademark.mark}™ · {trademark.type} · {trademark.class} · Ref {trademark.refNo} · Proprietor {BUSINESS.proprietor}
+            {trademark.mark} · {trademark.class} · Proprietor {BUSINESS.proprietor}
           </p>
         </div>
       </div>

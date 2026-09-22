@@ -19,21 +19,10 @@ export const BUSINESS = {
   },
   trademark: {
     mark: "Hoomora",
-    type: "Device",
-    act: "Trade Marks Act, 1999 (Form TM-A)",
-    refNo: "15239573",
     class: "Class 20",
-    jurisdiction: "Ahmedabad",
     status: "Proposed to be used",
-    ownership: "Individual / Sole Proprietor",
-    fee: "INR 4,500",
-    applicant: "SIDDIQUE ALAM SHAIKH PROPRIETOR OF ZUVOX BAG'S",
-    category: "Single Firm",
     goods:
       "Furniture, mirrors, picture frames; goods of wood, cork, reed, cane, wicker, horn, bone, ivory, shell, plastics and substitutes as per Class 20.",
-    agent: "KOMALAHUJA, Advocate",
-    serviceAddress:
-      "Office No. 115, First Floor, GD-ITL Tower, Plot No. B-8, Netaji Subhash Place, Delhi - 110034",
   },
 };
 

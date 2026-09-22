@@ -87,16 +87,10 @@ export default function Contact() {
           <div className="contact__tm">
             <h3>Trademark & ownership</h3>
             <ul>
-              <li><span>Brand</span><strong>{trademark.mark}™ ({trademark.type})</strong></li>
-              <li><span>Application</span><strong>{trademark.act}</strong></li>
-              <li><span>Reference No.</span><strong>{trademark.refNo}</strong></li>
-              <li><span>Classification</span><strong>{trademark.class}</strong></li>
-              <li><span>Jurisdiction</span><strong>{trademark.jurisdiction}</strong></li>
+              <li><span>Brand</span><strong>{trademark.mark}</strong></li>
+              <li><span>Class</span><strong>{trademark.class}</strong></li>
               <li><span>Status</span><strong>{trademark.status}</strong></li>
-              <li><span>Filing fee</span><strong>{trademark.fee}</strong></li>
-              <li><span>Category</span><strong>{trademark.category}</strong></li>
               <li><span>Goods</span><strong>{trademark.goods}</strong></li>
-              <li><span>Agent</span><strong>{trademark.agent}</strong></li>
               <li><span>Proprietor</span><strong>{BUSINESS.proprietor}</strong></li>
               <li><span>Firm</span><strong>{BUSINESS.firm}</strong></li>
             </ul>

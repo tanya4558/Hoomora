@@ -19,12 +19,14 @@
   align-items: center;
   justify-content: space-between;
   height: 72px;
+  min-width: 0;
 }
 
 .nav__brand {
   display: flex;
   flex-direction: column;
   line-height: 1;
+  min-width: 0;
 }
 
 .nav__logo {
@@ -33,6 +35,7 @@
   font-size: 1.5rem;
   letter-spacing: 0.16em;
   color: #fff;
+  overflow-wrap: anywhere;
 }
 
 .nav__sub {
